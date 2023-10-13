@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <CheckBox
+              android:id="@+id/ck_system"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="this is system checkbox"
+    />
+<!--    注意不是直接加图片，是加选择器文件!-->
+    <CheckBox
+              android:id="@+id/ck_custom"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:button="@drawable/checkbox_selector"
+              android:text="this is custom checkbox"
+    />
+</LinearLayout>
